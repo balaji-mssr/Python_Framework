@@ -12,4 +12,7 @@ Tested on Python 2.7.10 & 3.4.2 and all libraries installed with the pip that ca
 1. Open a shell/command prompt and from the root folder 
    run "behave features --no-capture -D XPATHKEY=myaccountpage.buy_pass_button,myaccountpage.focused_button -D SOURCEXML=./features/data/MyAccount.xml"  
 2. Run behave with "-v" gives verbose log.
+3. Example Usage:
+    * behave features --no-capture -D XPATHKEY=myaccountpage.focused_button -D SOURCEXML=./features/data/MyAccount.xml
+    * behave features --no-capture -D XPATHKEY=myaccountpage.buy_pass_button -D SOURCEXML=./features/data/MyAccount.xml
    
