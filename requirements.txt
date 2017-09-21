@@ -1,0 +1,8 @@
+behave==1.2.5
+selenium==2.53.0
+colorama==0.3.3
+openpyxl==2.2.4
+pillow==2.9.0
+pyyaml==3.11
+lxml==4.0.0
+xmlunittest==0.4.0

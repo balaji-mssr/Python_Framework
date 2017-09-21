@@ -1,0 +1,246 @@
+<topscreen>
+<plugin id="dev" name="Now TV Sky IE"/>
+<screen focused="true" type="SGScreen">
+<Default children="0" focusable="false" focused="false" index="0" name="" opacity="100" thread="render" visible="true"/>
+<Scene children="0" focusable="true" focused="true">
+<Poster index="0" loadStatus="3" uri="/Netflix/Artwork/SceneGraph/GenevaTheme/Base/HD/background.jpg"/>
+<defaultContainer children="1" focused="true" index="0" name="defaultContainer">
+<AtlasGroup children="6" focused="true" index="0" name="AtlasGroup">
+<Rectangle index="0" name="baseBackground"/>
+<panelSetContainer children="1" focused="true" index="0" name="panelSetContainer">
+<MainPanelSet children="4" focused="true" index="0" name="MainPanelSet">
+<Rectangle index="0" name="background"/>
+<movingContainer children="2" focused="true" index="0" name="movingContainer">
+<panelContainer children="2" focused="true" index="0" name="panelContainer">
+<MenuComponent children="5" focusable="true" index="0" name="MenuComponent">
+<Rectangle index="0" name="background"/>
+<MarkupList children="9" count="8" focusItem="6" focusable="true" index="0" name="menuList">
+<RenderableNode children="4" focusable="true" index="0">
+<Rectangle index="0" name="background"/>
+<Label color="#ddddddff" index="0" name="item" text="Search"/>
+<Poster index="0" loadStatus="3" name="arrow" uri="pkg:/components/images/navigation/arrow_white.png" visible="false"/>
+<Rectangle index="1" name="separator" visible="false"/>
+</RenderableNode>
+<RenderableNode children="4" focusable="true" index="1">
+<Rectangle index="0" name="background"/>
+<Label color="#ddddddff" index="0" name="item" text="My TV"/>
+<Poster index="0" loadStatus="3" name="arrow" uri="pkg:/components/images/navigation/arrow_white.png"/>
+<Rectangle index="1" name="separator" visible="false"/>
+</RenderableNode>
+<RenderableNode children="4" focusable="true" index="2">
+<Rectangle index="0" name="background"/>
+<Label color="#ddddddff" index="0" name="item" text="Movies"/>
+<Poster index="0" loadStatus="3" name="arrow" uri="pkg:/components/images/navigation/arrow_white.png"/>
+<Rectangle index="1" name="separator" visible="false"/>
+</RenderableNode>
+<RenderableNode children="4" focusable="true" index="3">
+<Rectangle index="0" name="background"/>
+<Label color="#ddddddff" index="0" name="item" text="Entertainment"/>
+<Poster index="0" loadStatus="3" name="arrow" uri="pkg:/components/images/navigation/arrow_white.png"/>
+<Rectangle index="1" name="separator" visible="false"/>
+</RenderableNode>
+<RenderableNode children="4" focusable="true" index="4">
+<Rectangle index="0" name="background"/>
+<Label color="#ddddddff" index="0" name="item" text="Sports"/>
+<Poster index="0" loadStatus="3" name="arrow" uri="pkg:/components/images/navigation/arrow_white.png" visible="false"/>
+<Rectangle index="1" name="separator" visible="false"/>
+</RenderableNode>
+<RenderableNode children="4" focusable="true" index="5">
+<Rectangle index="0" name="background"/>
+<Label color="#e9e9e9cc" index="0" name="item" text="Kids"/>
+<Poster index="0" loadStatus="3" name="arrow" uri="pkg:/components/images/navigation/arrow_white.png" visible="false"/>
+<Rectangle index="1" name="separator" visible="false"/>
+</RenderableNode>
+<RenderableNode children="4" focusable="true" focused="true" index="6">
+<Rectangle index="0" name="background"/>
+<Label color="#e9e9e9ff" index="0" name="item" text="My Account"/>
+<Poster index="0" loadStatus="3" name="arrow" uri="pkg:/components/images/navigation/arrow_white.png" visible="false"/>
+<Rectangle index="1" name="separator" visible="false"/>
+</RenderableNode>
+<RenderableNode children="4" focusable="true" index="7">
+<Rectangle index="0" name="background"/>
+<Label color="#ddddddff" index="0" name="item" text="Help"/>
+<Poster index="0" loadStatus="3" name="arrow" uri="pkg:/components/images/navigation/arrow_white.png" visible="false"/>
+<Rectangle index="1" name="separator" visible="false"/>
+</RenderableNode>
+</MarkupList>
+<Poster index="0" loadStatus="3" name="topFade" uri="pkg:/components/images/navigation/top_fade.png"/>
+<Poster index="1" loadStatus="3" name="logoPoster" uri="pkg:/images/logos/nowTV.png"/>
+</MenuComponent>
+<MyAccountPage children="5" focusable="true" focused="true" index="0" name="MyAccountPage">
+<Rectangle index="0" name="background"/>
+<Label color="#e9e9e9ff" index="0" name="title" text="My Account"/>
+<MarkupList children="5" count="4" focusItem="0" focusable="true" focused="true" index="0" name="entitlementList">
+<RenderableNode children="2" focusable="true" focused="true" index="0">
+<LayoutGroup children="2" index="0" name="entitlementItem">
+<Poster index="0" loadStatus="3" name="ticket" uri="pkg:/images/account/movies_inactive.png"/>
+<LayoutGroup children="2" index="0" name="textGroup">
+<Label color="#a247eaff" index="0" name="title" text="Sky Cinema Month Pass"/>
+<Label color="#e9e9e9cc" index="1" name="status" text="Buy a pass to start watching"/>
+</LayoutGroup>
+</LayoutGroup>
+<Button children="6" focusable="true" focused="true" index="0" name="CINEMA_SUBSCRIPTION">
+<Poster index="0" loadStatus="3" uri="pkg:/components/images/button/rounded_full_purple.9.png"/>
+<Poster index="1" loadStatus="3" uri="pkg:/components/images/button/rounded_full_madison.9.png" visible="false"/>
+<Label color="#262626ff" index="0" text=""/>
+<Poster index="2" loadStatus="3" uri="pkg:/components/images/pixel/pixel_transparent.png" visible="false"/>
+<Poster index="3" loadStatus="3" uri="pkg:/components/images/pixel/pixel_transparent.png"/>
+<Label color="#e9e9e9ff" index="1" text="Buy pass"/>
+</Button>
+</RenderableNode>
+<RenderableNode children="2" focusable="true" index="1">
+<LayoutGroup children="2" index="0" name="entitlementItem">
+<Poster index="0" loadStatus="3" name="ticket" uri="pkg:/images/account/entertainment_inactive.png"/>
+<LayoutGroup children="2" index="0" name="textGroup">
+<Label color="#e96710ff" index="0" name="title" text="Entertainment Month Pass"/>
+<Label color="#e9e9e9cc" index="1" name="status" text="Buy a pass to start watching"/>
+</LayoutGroup>
+</LayoutGroup>
+<Button children="6" focusable="true" index="0" name="ENTERTAINMENT_SUBSCRIPTION">
+<Poster index="0" loadStatus="3" uri="pkg:/components/images/button/rounded_full_orange.9.png" visible="false"/>
+<Poster index="1" loadStatus="3" uri="pkg:/components/images/button/rounded_full_madison.9.png"/>
+<Label color="#ddddddff" index="0" text=""/>
+<Poster index="2" loadStatus="3" uri="pkg:/components/images/pixel/pixel_transparent.png"/>
+<Poster index="3" loadStatus="3" uri="pkg:/components/images/pixel/pixel_transparent.png" visible="false"/>
+<Label color="#e9e9e9ff" index="1" text="Buy pass"/>
+</Button>
+</RenderableNode>
+<RenderableNode children="2" focusable="true" index="2">
+<LayoutGroup children="2" index="0" name="entitlementItem">
+<Poster index="0" loadStatus="3" name="ticket" uri="pkg:/images/account/sports_inactive.png"/>
+<LayoutGroup children="2" index="0" name="textGroup">
+<Label color="#2f6ef6ff" index="0" name="title" text="Sky Sports Pass"/>
+<Label color="#e9e9e9cc" index="1" name="status" text="Buy a pass to start watching"/>
+</LayoutGroup>
+</LayoutGroup>
+<Button children="6" focusable="true" index="0" name="SPORTS_SUBSCRIPTION">
+<Poster index="0" loadStatus="3" uri="pkg:/components/images/button/rounded_full_blue.9.png" visible="false"/>
+<Poster index="1" loadStatus="3" uri="pkg:/components/images/button/rounded_full_madison.9.png"/>
+<Label color="#ddddddff" index="0" text=""/>
+<Poster index="2" loadStatus="3" uri="pkg:/components/images/pixel/pixel_transparent.png"/>
+<Poster index="3" loadStatus="3" uri="pkg:/components/images/pixel/pixel_transparent.png" visible="false"/>
+<Label color="#e9e9e9ff" index="1" text="Buy pass"/>
+</Button>
+</RenderableNode>
+<RenderableNode children="2" index="3">
+<LayoutGroup children="2" index="0" name="entitlementItem">
+<Poster index="0" loadStatus="3" name="ticket" uri="pkg:/images/account/kids_active.png"/>
+<LayoutGroup children="2" index="0" name="textGroup">
+<Label color="#eb3c3cff" index="0" name="title" text="Kids Month Pass"/>
+<Label color="#e9e9e9cc" index="1" name="status" text="Active Pass"/>
+</LayoutGroup>
+</LayoutGroup>
+<Button children="5" index="0" name="KIDS_SUBSCRIPTION" visible="false">
+<Poster index="0" loadStatus="3" uri="/Netflix/Artwork/SceneGraph/GenevaTheme/Base/HD/focus_list.9.png" visible="false"/>
+<Poster index="1" loadStatus="3" uri="/Netflix/Artwork/SceneGraph/GenevaTheme/Base/HD/focus_footprint.9.png" visible="false"/>
+<Label color="#ddddddff" index="0" text=""/>
+<Poster index="2" loadStatus="3" uri="pkg:/components/images/pixel/pixel_transparent.png"/>
+<Poster index="3" loadStatus="3" uri="pkg:/components/images/pixel/pixel_transparent.png" visible="false"/>
+</Button>
+</RenderableNode>
+</MarkupList>
+<Rectangle index="1" name="right_background"/>
+<LayoutGroup children="7" focusable="true" index="0" name="rightColumn">
+<Label color="#e9e9e9ff" index="0" name="voucherTitle" text="Got a promo code?"/>
+<Button children="6" focusable="true" index="0" name="buttonApplyVoucher">
+<Poster index="0" loadStatus="3" uri="pkg:/components/images/button/rounded_full_green.9.png" visible="false"/>
+<Poster index="1" loadStatus="3" uri="pkg:/components/images/button/rounded_full_madison.9.png"/>
+<Label color="#ddddddff" index="0" text=""/>
+<Poster index="2" loadStatus="3" uri="pkg:/components/images/pixel/pixel_transparent.png"/>
+<Poster index="3" loadStatus="3" uri="pkg:/components/images/pixel/pixel_transparent.png" visible="false"/>
+<Label color="#e9e9e9ff" index="1" text="Apply voucher"/>
+</Button>
+<Label color="#e9e9e9cc" index="1" name="accountDetails" text="Details about vouchers, payment and cancellations can be viewed online at NOWTV.com"/>
+<Label color="#37ac47ff" index="2" name="signedInAs" text="You're signed in as"/>
+<Label color="#e9e9e9cc" index="3" name="userName" text="a2828bwyvjqrqon@sky.uk"/>
+<Button children="6" focusable="true" index="1" name="buttonSignOut">
+<Poster index="0" loadStatus="3" uri="pkg:/components/images/button/rounded_full_green.9.png" visible="false"/>
+<Poster index="1" loadStatus="3" uri="pkg:/components/images/button/rounded_full_cello.9.png"/>
+<Label color="#ddddddff" index="0" text=""/>
+<Poster index="2" loadStatus="3" uri="pkg:/components/images/pixel/pixel_transparent.png"/>
+<Poster index="3" loadStatus="3" uri="pkg:/components/images/pixel/pixel_transparent.png" visible="false"/>
+<Label color="#e9e9e9ff" index="1" text="Sign out"/>
+</Button>
+<Label color="#e9e9e9ff" index="4" name="version" text="v0.1.00001"/>
+</LayoutGroup>
+</MyAccountPage>
+</panelContainer>
+<Rectangle index="0" name="overlay" opacity="30" visible="false"/>
+</movingContainer>
+<spinner children="25" index="0" name="spinner" visible="false">
+<Poster index="0" loadStatus="3" name="spinner0" uri="pkg:/images/LoadingAnimation/spinner0.png" visible="false"/>
+<Poster index="1" loadStatus="3" name="spinner1" uri="pkg:/images/LoadingAnimation/spinner1.png" visible="false"/>
+<Poster index="2" loadStatus="3" name="spinner2" uri="pkg:/images/LoadingAnimation/spinner2.png" visible="false"/>
+<Poster index="3" loadStatus="3" name="spinner3" uri="pkg:/images/LoadingAnimation/spinner3.png" visible="false"/>
+<Poster index="4" loadStatus="3" name="spinner4" uri="pkg:/images/LoadingAnimation/spinner4.png" visible="false"/>
+<Poster index="5" loadStatus="3" name="spinner5" uri="pkg:/images/LoadingAnimation/spinner5.png" visible="false"/>
+<Poster index="6" loadStatus="3" name="spinner6" uri="pkg:/images/LoadingAnimation/spinner6.png" visible="false"/>
+<Poster index="7" loadStatus="3" name="spinner7" uri="pkg:/images/LoadingAnimation/spinner7.png" visible="false"/>
+<Poster index="8" loadStatus="3" name="spinner8" uri="pkg:/images/LoadingAnimation/spinner8.png" visible="false"/>
+<Poster index="9" loadStatus="3" name="spinner9" uri="pkg:/images/LoadingAnimation/spinner9.png" visible="false"/>
+<Poster index="10" loadStatus="3" name="spinner10" uri="pkg:/images/LoadingAnimation/spinner10.png" visible="false"/>
+<Poster index="11" loadStatus="3" name="spinner11" uri="pkg:/images/LoadingAnimation/spinner11.png" visible="false"/>
+<Poster index="12" loadStatus="3" name="spinner12" uri="pkg:/images/LoadingAnimation/spinner12.png" visible="false"/>
+<Poster index="13" loadStatus="3" name="spinner13" uri="pkg:/images/LoadingAnimation/spinner13.png" visible="false"/>
+<Poster index="14" loadStatus="3" name="spinner14" uri="pkg:/images/LoadingAnimation/spinner14.png" visible="false"/>
+<Poster index="15" loadStatus="3" name="spinner15" uri="pkg:/images/LoadingAnimation/spinner15.png" visible="false"/>
+<Poster index="16" loadStatus="3" name="spinner16" uri="pkg:/images/LoadingAnimation/spinner16.png" visible="false"/>
+<Poster index="17" loadStatus="3" name="spinner17" uri="pkg:/images/LoadingAnimation/spinner17.png"/>
+<Poster index="18" loadStatus="3" name="spinner18" uri="pkg:/images/LoadingAnimation/spinner18.png" visible="false"/>
+<Poster index="19" loadStatus="3" name="spinner19" uri="pkg:/images/LoadingAnimation/spinner19.png" visible="false"/>
+<Poster index="20" loadStatus="3" name="spinner20" uri="pkg:/images/LoadingAnimation/spinner20.png" visible="false"/>
+<Poster index="21" loadStatus="3" name="spinner21" uri="pkg:/images/LoadingAnimation/spinner21.png" visible="false"/>
+<Poster index="22" loadStatus="3" name="spinner22" uri="pkg:/images/LoadingAnimation/spinner22.png" visible="false"/>
+<Poster index="23" loadStatus="3" name="spinner23" uri="pkg:/images/LoadingAnimation/spinner23.png" visible="false"/>
+</spinner>
+</MainPanelSet>
+</panelSetContainer>
+<defaultContainer index="0" name="defaultContainer"/>
+<loadingScreenContainer children="1" index="0" name="loadingScreenContainer">
+<LoadingScreen children="2" index="0" name="LoadingScreen" visible="false">
+<Rectangle index="0" name="loadingScreenBackground"/>
+<spinner children="25" index="0" name="spinner">
+<Poster index="0" loadStatus="3" name="spinner0" uri="pkg:/images/LoadingAnimation/spinner0.png" visible="false"/>
+<Poster index="1" loadStatus="3" name="spinner1" uri="pkg:/images/LoadingAnimation/spinner1.png" visible="false"/>
+<Poster index="2" loadStatus="3" name="spinner2" uri="pkg:/images/LoadingAnimation/spinner2.png" visible="false"/>
+<Poster index="3" loadStatus="3" name="spinner3" uri="pkg:/images/LoadingAnimation/spinner3.png" visible="false"/>
+<Poster index="4" loadStatus="3" name="spinner4" uri="pkg:/images/LoadingAnimation/spinner4.png" visible="false"/>
+<Poster index="5" loadStatus="3" name="spinner5" uri="pkg:/images/LoadingAnimation/spinner5.png" visible="false"/>
+<Poster index="6" loadStatus="3" name="spinner6" uri="pkg:/images/LoadingAnimation/spinner6.png"/>
+<Poster index="7" loadStatus="3" name="spinner7" uri="pkg:/images/LoadingAnimation/spinner7.png" visible="false"/>
+<Poster index="8" loadStatus="3" name="spinner8" uri="pkg:/images/LoadingAnimation/spinner8.png" visible="false"/>
+<Poster index="9" loadStatus="3" name="spinner9" uri="pkg:/images/LoadingAnimation/spinner9.png" visible="false"/>
+<Poster index="10" loadStatus="3" name="spinner10" uri="pkg:/images/LoadingAnimation/spinner10.png" visible="false"/>
+<Poster index="11" loadStatus="3" name="spinner11" uri="pkg:/images/LoadingAnimation/spinner11.png" visible="false"/>
+<Poster index="12" loadStatus="3" name="spinner12" uri="pkg:/images/LoadingAnimation/spinner12.png" visible="false"/>
+<Poster index="13" loadStatus="3" name="spinner13" uri="pkg:/images/LoadingAnimation/spinner13.png" visible="false"/>
+<Poster index="14" loadStatus="3" name="spinner14" uri="pkg:/images/LoadingAnimation/spinner14.png" visible="false"/>
+<Poster index="15" loadStatus="3" name="spinner15" uri="pkg:/images/LoadingAnimation/spinner15.png" visible="false"/>
+<Poster index="16" loadStatus="3" name="spinner16" uri="pkg:/images/LoadingAnimation/spinner16.png" visible="false"/>
+<Poster index="17" loadStatus="3" name="spinner17" uri="pkg:/images/LoadingAnimation/spinner17.png" visible="false"/>
+<Poster index="18" loadStatus="3" name="spinner18" uri="pkg:/images/LoadingAnimation/spinner18.png" visible="false"/>
+<Poster index="19" loadStatus="3" name="spinner19" uri="pkg:/images/LoadingAnimation/spinner19.png" visible="false"/>
+<Poster index="20" loadStatus="3" name="spinner20" uri="pkg:/images/LoadingAnimation/spinner20.png" visible="false"/>
+<Poster index="21" loadStatus="3" name="spinner21" uri="pkg:/images/LoadingAnimation/spinner21.png" visible="false"/>
+<Poster index="22" loadStatus="3" name="spinner22" uri="pkg:/images/LoadingAnimation/spinner22.png" visible="false"/>
+<Poster index="23" loadStatus="3" name="spinner23" uri="pkg:/images/LoadingAnimation/spinner23.png" visible="false"/>
+</spinner>
+</LoadingScreen>
+</loadingScreenContainer>
+<notificationContainer children="1" index="0" name="notificationContainer">
+<Notification children="4" index="0" name="Notification">
+<notificationGroup children="5" index="0" name="notificationGroup">
+<Rectangle index="0" name="background"/>
+<Poster index="0" name="icon"/>
+<Label color="#e9e9e9ff" index="0" name="title" text=""/>
+<Label color="#e9e9e9ff" index="1" name="message" text=""/>
+<Rectangle index="1" name="border"/>
+</notificationGroup>
+</Notification>
+</notificationContainer>
+<errorContainer index="0" name="errorContainer"/>
+</AtlasGroup>
+</defaultContainer>
+</Scene>
+</screen>
+</topscreen>

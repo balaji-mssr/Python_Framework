@@ -1,0 +1,62 @@
+[
+{
+  "elements": [
+    {
+      "keyword": "Scenario", 
+      "location": "features\\MyAccount.feature:3", 
+      "name": "Validate My Account Page", 
+      "steps": [
+        {
+          "keyword": "Given", 
+          "location": "features\\MyAccount.feature:4", 
+          "match": {
+            "arguments": [], 
+            "location": "features\\steps\\myaccount.py:12"
+          }, 
+          "name": "I have my sky account subscription details page", 
+          "result": {
+            "duration": 0.005000114440917969, 
+            "status": "passed"
+          }, 
+          "step_type": "given"
+        }, 
+        {
+          "keyword": "When", 
+          "location": "features\\MyAccount.feature:5", 
+          "match": {
+            "arguments": [], 
+            "location": "features\\steps\\myaccount.py:19"
+          }, 
+          "name": "I check for page elements", 
+          "result": {
+            "duration": 0.0019998550415039062, 
+            "status": "passed"
+          }, 
+          "step_type": "when"
+        }, 
+        {
+          "keyword": "Then", 
+          "location": "features\\MyAccount.feature:6", 
+          "match": {
+            "arguments": [], 
+            "location": "features\\steps\\myaccount.py:40"
+          }, 
+          "name": "the page elements are displayed", 
+          "result": {
+            "duration": 0.0019998550415039062, 
+            "status": "passed"
+          }, 
+          "step_type": "then"
+        }
+      ], 
+      "tags": [], 
+      "type": "scenario"
+    }
+  ], 
+  "keyword": "Feature", 
+  "location": "features\\MyAccount.feature:1", 
+  "name": "Verify My Account", 
+  "status": "passed", 
+  "tags": []
+}
+]
