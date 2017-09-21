@@ -1,6 +1,6 @@
 # Python Behave XML Framework
 python , behave , Selenium webdriver (Optional)
-Tested on Python 2.7.10 & 3.4.2 and all libraries installed with the pip that came with 3.4.2  
+Tested on Python 2.7.14 and all libraries installed with the pip that came with 3.4.2  
 
 # Pre-requistie
 1. Clone the Repository
